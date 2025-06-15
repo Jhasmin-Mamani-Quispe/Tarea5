@@ -1,0 +1,52 @@
+.contenedor {
+  display: grid;
+  grid-template-areas:
+    "titulo titulo "
+    "menu menu"
+    "contenido  contenido"
+    "footer1 publicidad";
+  grid-template-columns: 3fr 1fr;
+  gap: 5px;
+  height: 100vh; 
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+   
+}
+
+.titulo {
+  grid-area: titulo;
+  background-color: #3adde9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu {
+  grid-area: menu;
+  display: flex;
+  justify-content: center;
+  background-color: #f5dd55;
+}
+
+.contenido {
+  grid-area: contenido;
+  background-color: goldenrod;
+  padding: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer1 {
+  grid-area: footer1;
+  background-color:#302709;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+.publicidad {
+  grid-area: publicidad;
+  background-color: #302709;
+  color: white;
+  text-align: center;
+  padding: 8px;
+}
+
