@@ -29,7 +29,7 @@ function Peliculas() {
   return (
     <div className="Peliculas">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 text-center mb-12">
-          Actores Famosos
+          Peliculas
         </h2>
         <div style={{ display: 'flex', justifyContent: 'center', gap: '40px', flexWrap: 'wrap' }}>
         <TarjetaConModal titulo="El Señor de los Anillos: La Comunidad del Anillo" 
